@@ -1,1 +1,70 @@
 /* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* HTMl Selectors */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(10, 10, 10);
+  background-color: rgb(225, 225, 225);
+}
+
+h1, h2, h3 {
+  font-size: 24px;
+  color: rgba(255, 83, 13, 1);
+  font-family: 'Courier Prime', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Classes */
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+  margin: 32px auto;
+  width: 40%;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(15, 15, 151);
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  margin: 16px;
+  padding: 12px 24px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.5) ;
+}
+
+.btn:hover {
+  background-color: rgb(10, 10, 104);
+}
+
+.social {
+  display: inline-block;
+}
+
+.social > a {
+  color: rgb(100, 100, 100);
+  font-size: 24px;
+  padding: 8px;
+}
+
+.social > a:hover{
+  color: black;
+}
+
+/* IDs */
+#profile-pic {
+  width: 250px;
+  border-radius: 50%;
+}
+
+#social-list {
+  padding: 0;
+}
